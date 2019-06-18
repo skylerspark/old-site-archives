@@ -1,2 +1,0 @@
-# skylerspark.github.io
-mysite
