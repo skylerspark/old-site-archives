@@ -41,6 +41,7 @@ hr {
  border: 0px;
  border-top: 2px dotted #006b91;
 }
+
 #navButton {
  font-size: 13px;
  color: white;
@@ -48,6 +49,7 @@ hr {
  margin: 25px;
  float: right;
 }
+
 .sidenav {
   height: 100%;
   width: 0;
