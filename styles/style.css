@@ -1,5 +1,6 @@
 html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-color: skyblue;overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
 html::-webkit-scrollbar { width: 0 !important }
+
 .link {
  font-size: 13px;
  color: white;
@@ -7,6 +8,7 @@ html::-webkit-scrollbar { width: 0 !important }
  margin: 25px;
  float: left;
 }
+
 .headerBar {
  border: 2px solid #006b91;
  border-radius: 5px;
@@ -14,6 +16,7 @@ html::-webkit-scrollbar { width: 0 !important }
  height: 70px;
  background-color: #007ba7;
 }
+
 .headerLogo {
  cursor: pointer;
  float: left;
@@ -21,9 +24,11 @@ html::-webkit-scrollbar { width: 0 !important }
  height: 60px;
  margin: 5px;
 }
+
 .imgl {
  width: 100%;
 }
+
 .welcomeMsg {
  font-size: 13px;
  color: white;
@@ -31,6 +36,7 @@ html::-webkit-scrollbar { width: 0 !important }
  margin-left: 60px;
  float: left;
 }
+
 hr {
  border: 0px;
  border-top: 2px dotted #006b91;
@@ -75,26 +81,29 @@ hr {
  font-size: 36px;
  margin-left: 50px;
 }
+
 .pimg {
+ text-align: center;
+}
+
+.c {
  overflow: hidden;
- float: left;
+ display: inline-block;
  border: 2px solid #006b91;
  border-radius: 5px;
- margin: auto;
+ margin-left: 40px;
  width: 200px;
- white-space: nowrap;
 }
+
 .p {
  color: #006b91;
  text-align: center;
  font-size: 50px;
 }
+
 .subtitle {
  font-size: 15px;
 }
-
-
-
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
