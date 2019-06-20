@@ -41,7 +41,7 @@ hr {
  border: 0px;
  border-top: 2px dotted #006b91;
 }
-.navButton {
+#navButton {
  font-size: 13px;
  color: white;
  cursor: pointer;
