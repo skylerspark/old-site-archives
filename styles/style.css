@@ -80,7 +80,7 @@ hr {
  float: left;
  border: 2px solid #006b91;
  border-radius: 5px;
- margin: 50px;
+ margin: auto;
  width: 200px;
  white-space: nowrap;
 }
