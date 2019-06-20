@@ -3,7 +3,7 @@ html::-webkit-scrollbar { width: 0 !important }
 
 .link {
  font-size: 13px;
- color: white;
+ color: skyblue;
  cursor: pointer;
  margin: 25px;
  float: left;
