@@ -1,5 +1,7 @@
-html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-color: skyblue}
+html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-color: skyblue;overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
+html::-webkit-scrollbar { width: 0 !important }
 .link {
+ font-size: 13px;
  color: white;
  cursor: pointer;
  margin: 25px;
@@ -23,6 +25,7 @@ html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-
  width: 100%;
 }
 .welcomeMsg {
+ font-size: 13px;
  color: white;
  margin: 25px;
  margin-left: 60px;
@@ -33,9 +36,11 @@ hr {
  border-top: 2px dotted #006b91;
 }
 .navButton {
- font-size: 20px;
+ font-size: 13px;
+ color: white;
  cursor: pointer;
- color: #006b91;
+ margin: 25px;
+ float: right;
 }
 .sidenav {
   height: 100%;
@@ -64,13 +69,21 @@ hr {
 }
 
 .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 50px;
 }
-
+.pimg {
+ overflow: hidden;
+ float: left;
+ border: 2px solid #006b91;
+ border-radius: 5px;
+ margin: 50px;
+ width: 200px;
+ white-space: nowrap;
+}
 .p {
  color: #006b91;
  text-align: center;

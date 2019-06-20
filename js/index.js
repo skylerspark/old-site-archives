@@ -4,6 +4,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-function linkh() {
-  window.location.assign("../../index.html")
+function link(linktex) {
+  window.location.assign(linktex);
+  console.log("Redirecting to " + linktex)
 }
