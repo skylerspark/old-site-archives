@@ -6,5 +6,5 @@ function closeNav() {
 }
 function link(linktex) {
   window.location.assign(linktex);
-  console.log("Redirecting to " + linktex)
+  console.log("Redirecting to " + linktex);
 }
