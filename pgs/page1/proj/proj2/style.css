@@ -1,0 +1,30 @@
+body {
+  background-color: #009b12;
+  color: #fff;
+  height: 100%;
+  width: calc(100% - 23px);
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+html::-webkit-scrollbar {
+  width: 0 !important;
+}
+div {
+  background-color: #282b2a;
+  margin-top: 80px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  width: 100%;
+  height: 80px;
+  color: #fff;
+}
+#m1 {
+  color: #ff3535;
+}
+#m2 {
+  color: #ff0;
+}
+#m3 {
+  color: #00a1ff;
+}
