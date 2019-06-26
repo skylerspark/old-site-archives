@@ -7,7 +7,7 @@ html::-webkit-scrollbar { width: 0 !important }
  cursor: pointer;
  margin: 25px;
  float: left;
-}
+} .a7 {color:#007ba7;}
 
 .headerBar {
  border: 2px solid #006b91;

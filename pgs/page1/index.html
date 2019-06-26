@@ -2,6 +2,14 @@
  <link rel="stylesheet" href="../../styles/style.css"></link>
  <script src="../../js/index.js"></script>
  <style>.a1 {color: white; font-weight: bold;}</style>
+ <script>
+ window.addEventListener("keydown", function(e) {
+    // space and arrow keys
+    if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+        e.preventDefault();
+    }
+}, false);
+</script>
  <body>
    <div class="headerBar">
     <div class="headerLogo"><img onclick="link('../../index.html')" class="imgl" src="../../images/pagelogo.png"></div>
