@@ -14,15 +14,17 @@ window.onload = function() {
 }
 
 var allowedKeys = {
-  32: 'spc',
-  37: 'left',
-  38: 'up',
-  39: 'right',
-  40: 'down',
-  65: 'a',
-  66: 'b'
+  32: '1',
+  37: '2',
+  38: '3',
+  39: '4',
+  40: '5',
+  65: '6',
+  69: '7',
+  78: '8',
+  89: '9'
 };
-var kCode = ['spc','up','down','spc'];
+var kCode = ['1','3','4','5','6','9','1','7','2','8','6','9','4','5','1'];
 var kCodePos = 0;
 
 document.addEventListener('keydown', function(e) {
