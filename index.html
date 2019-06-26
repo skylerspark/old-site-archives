@@ -1,37 +1,65 @@
-<html> 
- <link rel="stylesheet" href="styles/style.css"></link>
- <script src="js/index.js"></script>
- <body>
-   <div class="headerBar">
-    <div class="headerLogo"><img class="imgl" src="images/pagelogo.png"></div>
-    <div class="link a1" onclick="link('pgs/page1/index.html')">Projects</div>
-    <div class="link a2" onclick="link('pgs/page2/index.html')">Known</div>
-    <div class="link a3" onclick="link('pgs/page3/index.html')">Introduction</div>
-    <div class="link a4" onclick="link('pgs/page4/index.html')">Bio</div>
-    <div class="link a5" onclick="link('pgs/page5/index.html')">Hiring?</div>
-    <div class="link a6" onclick="link('pgs/page6/index.html')">Learn</div>
-    <div class="link a7" id='a7' onclick="link('pgs/debug/index.html')">Page_Debug</div>
-    <div class="link a8" onclick="link8()"></div>
-    <div class="link a9" onclick="link9()"></div>
-    <div class="link a10" onclick="link10()"></div>
-    <span id="navButton" onclick="openNav()">&#9776; Social</span>
-<br>
-
-  </div> 
-<!--  End of header  -->
-  
-  <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="https://www.reddit.com/user/SkylerSpark">Reddit</a>
-  <a href="https://stackoverflow.com/users/11165703/taylor-spark">Stackoverflow</a>
-  <a href="https://codepen.io/SkylerSpark/">Codepen</a>
-</div>
-  
-<!--  End Of Navigation  -->
-<hr>
-<br>
-<!-- Website Below -->
-
-  <div class="p title">Welcome!</div>
-  <div class="p subtitle">I Hope your having a wonderful Day!</div>
-  
+<div id="wrapper">
+  <div id="bg">
+ <canvas id="canvas">Your browser doesn't support canvas</canvas>
+ 
+ <!-- SVG Goo filter from: https://css-tricks.com/gooey-effect/ -->
+ <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+     <defs>
+       <filter id="shadowed-goo">
+           
+           <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+           <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+           <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+           <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+           <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+           <feBlend in2="shadow" in="goo" result="goo" />
+           <feBlend in2="goo" in="SourceGraphic" result="mix" />
+       </filter>
+       <filter id="goo">
+           <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+           <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+           <feBlend in2="goo" in="SourceGraphic" result="mix" />
+       </filter>
+     </defs>
+ </svg>
+  </div>
+ 
+ <html id="front"> 
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="js/index.js"></script>
+  <script src="js/bg.js"></script>
+  <body>
+    <div class="headerBar">
+     <div class="headerLogo"><img class="imgl" src="images/pagelogo.png"></div>
+     <div class="link a1" onclick="link('pgs/page1/index.html')">Projects</div>
+     <div class="link a2" onclick="link('pgs/page2/index.html')">Known</div>
+     <div class="link a3" onclick="link('pgs/page3/index.html')">Introduction</div>
+     <div class="link a4" onclick="link('pgs/page4/index.html')">Bio</div>
+     <div class="link a5" onclick="link('pgs/page5/index.html')">Hiring?</div>
+     <div class="link a6" onclick="link('pgs/page6/index.html')">Learn</div>
+     <div class="link a7" id='a7' onclick="link('pgs/debug/index.html')">Page_Debug</div>
+     <div class="link a8" onclick="link8()"></div>
+     <div class="link a9" onclick="link9()"></div>
+     <div class="link a10" onclick="link10()"></div>
+     <span id="navButton" onclick="openNav()">&#9776; Social</span>
+ <br>
+ 
+   </div> 
+ <!--  End of header  -->
+   
+   <div id="mySidenav" class="sidenav">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <a href="https://www.reddit.com/user/SkylerSpark">Reddit</a>
+   <a href="https://stackoverflow.com/users/11165703/taylor-spark">Stackoverflow</a>
+   <a href="https://codepen.io/SkylerSpark/">Codepen</a>
+ </div>
+   
+ <!--  End Of Navigation  -->
+ <hr>
+ <br>
+ <!-- Website Below -->
+ 
+   <div class="p title">Welcome!</div>
+   <div class="p subtitle">I Hope your having a wonderful Day!</div>
+   <html>
+    </div>
