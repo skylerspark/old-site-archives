@@ -59,7 +59,7 @@ document.addEventListener('keydown', function(e) {
 
 function funcActive() {
   console.log('function activated');
-  document.getElementById('a7').style.display = 'block!important';
+  document.getElementById('a7').style.display = '';
   document.getElementById('a7').style.visibility = 'visible!important';
 }
 
