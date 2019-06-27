@@ -1,17 +1,29 @@
+// Navigator
+
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+
+
+// My custom link function
+
 function link(linktex) {
   window.location.assign(linktex);
   console.log("Redirecting to " + linktex);
 }
 
+
+// Hide debug element on page load
+
 window.onload = function() {
   document.getElementById('a7').style.display = 'none';
 }
+
+
+// Konami Code thing to show Debug Link
 
 var allowedKeys = {
   32: '1',
@@ -41,9 +53,14 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
+
+// Show Hidden Debug Link
+
 function funcActive() {
-  document.getElementById('a7').style.display = 'initial';
+  document.getElementById('a7').style.display = 'block!important';
+  document.getElementById('a7').style.visibility = 'visible!important';
 }
+
 
 // IP Grabber (Render a Public IP)
 
