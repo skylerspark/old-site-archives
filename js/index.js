@@ -45,6 +45,7 @@ document.addEventListener('keydown', function(e) {
   if (key == requiredKey) {
     kCodePos++;
     if (kCodePos == kCode.length) {
+      console.log("Keybind Correct");
       funcActive();
       kCodePos = 0;
     }
@@ -57,6 +58,7 @@ document.addEventListener('keydown', function(e) {
 // Show Hidden Debug Link
 
 function funcActive() {
+  console.log('function activated');
   document.getElementById('a7').style.display = 'block!important';
   document.getElementById('a7').style.visibility = 'visible!important';
 }
@@ -69,4 +71,4 @@ fetch('https://api.ipify.org/?format=json')
   .then(obj => obj.ip)
   .then(ip => {
  document.getElementById("ip").textContent = "Connecting From: " + ip
-})
+});
