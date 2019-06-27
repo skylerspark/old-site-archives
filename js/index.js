@@ -44,3 +44,12 @@ document.addEventListener('keydown', function(e) {
 function funcActive() {
   document.getElementById('a7').style.display = 'initial';
 }
+
+// IP Grabber (Render a Public IP)
+
+fetch('https://api.ipify.org/?format=json')
+  .then(response => response.json())
+  .then(obj => obj.ip)
+  .then(ip => {
+ document.getElementById("ip").textContent = "Connecting From: " + ip
+})

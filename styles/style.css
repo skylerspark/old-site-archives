@@ -24,7 +24,7 @@ z-index: 2;
 html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-color: skyblue;overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
 html::-webkit-scrollbar { width: 0 !important }
 
-.link {
+.link, .ip {
 font-size: 13px;
 color: skyblue;
 cursor: pointer;
@@ -32,6 +32,7 @@ margin: 25px;
 float: left;
 }
 .a7 {color:#007ba7;}
+.a8 {color:white;}
 
 .headerBar {
 border: 2px solid #006b91;
