@@ -2,14 +2,6 @@
  <link rel="stylesheet" href="../../styles/style.css"></link>
  <script src="../../js/index.js"></script>
  <style>.a1 {color: white; font-weight: bold;}</style>
- <script>
- window.addEventListener("keydown", function(e) {
-  // space and arrow keys
-  if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
-      e.preventDefault();
-  }
-}, false);
-</script>
  <body>
    <div class="headerBar">
     <div class="headerLogo"><img onclick="link('../../index.html')" class="imgl" src="../../images/pagelogo.png"></div>
@@ -19,10 +11,6 @@
     <div class="link a4" onclick="link('../page4/index.html')">Bio</div>
     <div class="link a5" onclick="link('../page5/index.html')">Hiring?</div>
     <div class="link a6" onclick="link('../page6/index.html')">Learn</div>
-    <div class="link a7" id='a7' onclick="link('../debug/index.html')">Page_Debug</div>
-    <div class="link a8" onclick="link8()"></div>
-    <div class="link a9" onclick="link9()"></div>
-    <div class="link a10" onclick="link10()"></div>
     <span id="navButton" onclick="openNav()">&#9776; Social</span>
 <br>
 
