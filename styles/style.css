@@ -21,7 +21,7 @@ z-index: 2;
 
 
 
-html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-color: skyblue;overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
+html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-color: white;overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
 html::-webkit-scrollbar { width: 0 !important }
 
 .link, .ip {
@@ -31,7 +31,7 @@ cursor: pointer;
 margin: 25px;
 float: left;
 }
-.a7 {color:white;}
+.a7 {color:white;margin-left:170px;}
 
 .headerBar {
 border: 2px solid #006b91;
@@ -115,15 +115,13 @@ width: 200px;
 }
 
 .p {
-color: white;
-text-shadow: 0px 0px 10px #000000;
+color: gray;
 text-align: center;
 font-size: 50px;
 }
 
 .subtitle {
 font-size: 25px;
-text-shadow: 0px 0px 10px #000000;
 }
 
 @media screen and (max-height: 450px) {
