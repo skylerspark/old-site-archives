@@ -124,6 +124,27 @@ font-size: 50px;
 font-size: 25px;
 }
 
+.abox {
+border: 2px solid #006b91;
+border-radius: 20px;
+-webkit-box-shadow: inset 1px 1px 20px 5px rgba(0,0,0,0.75),
+1px 1px 20px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 1px 1px 20px 5px rgba(0,0,0,0.75),
+1px 1px 20px 5px rgba(0,0,0,0.75);
+box-shadow: inset 1px 1px 20px 5px rgba(0,0,0,0.75),
+1px 1px 20px 5px rgba(0,0,0,0.75);
+background-color: white;
+width: 500px;
+height: 300px;
+position: absolute;
+left: 35.1%;
+margin-left: -50px;
+}
+
+.rtext {
+
+}
+
 @media screen and (max-height: 450px) {
 .sidenav {padding-top: 15px;}
 .sidenav a {font-size: 18px;}
