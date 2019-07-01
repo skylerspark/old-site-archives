@@ -11,7 +11,8 @@ function closeNav() {
 // My custom link function
 
 function link(linktex) {
-  window.location.assign(linktex);
+  window.open(linktex, '_blank');
+  win.focus();
   console.log("Redirecting to " + linktex);
 }
 
