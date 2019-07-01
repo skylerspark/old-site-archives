@@ -165,9 +165,9 @@ class Circle {
     constructor(x, y, baseRadius, bounceRadius, angleCircle) {
         this.basePosition = {x, y};
         this.position = {x, y};
-        this.speed = 0.01;
+        this.speed = 0;
         this.baseSize = 10;
-        this.size = 10;
+        this.size = 7;
         this.angle = (x + y);
         this.baseRadius = baseRadius;
         this.bounceRadius = bounceRadius;
