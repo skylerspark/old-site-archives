@@ -1,0 +1,65 @@
+/*Copyright Sir Code 2019 on Codepen.io*/
+* {
+ float: left;
+ transition: 0.8s;
+}
+.page {
+ width: 1000px;
+ height: 600px;
+ border: 1px solid #301b0d;
+ background-color: #452511;
+ border-radius: 20px;
+ margin-left: 166px;
+ box-shadow: 4px 4px 32px 6px rgba(0, 0, 0, 0.75);
+}
+.p {
+ background-color: tan;
+}
+#saveBtn {float:left;margin-left:360px;margin-top:8px;border:2px solid black;border-radius:5px;}
+.lp {
+ margin-left: 23px;
+ margin-top: 10px;
+ box-shadow: inset -10px 0px 37px -1px rgba(0, 0, 0, 0.75),
+  -13px 3px 56px -8px rgba(0, 0, 0, 0.75);
+}
+.lp:focus,
+.lp:hover,
+.lp:active {
+ box-shadow: inset -10px 0px 37px -1px rgba(0, 0, 0, 0.75),
+  -13px 3px 56px -8px rgba(0, 0, 0, 0.75);
+}
+
+.rp {
+ margin-left: -5px;
+ margin-top: 10px;
+ box-shadow: inset 10px 0px 37px -1px rgba(0, 0, 0, 0.75),
+  13px 3px 56px -8px rgba(0, 0, 0, 0.75);
+}
+.rp:focus,
+.rp:hover,
+.rp:active {
+ box-shadow: inset 10px 0px 37px -1px rgba(0, 0, 0, 0.75),
+  13px 3px 56px -8px rgba(0, 0, 0, 0.75);
+}
+
+textarea {
+ float: left;
+ resize: none;
+ background-color: transparent;
+ border: 1px solid #605240;
+}
+textarea:active,
+textarea:focus,
+textarea:hover {
+ border: 1px solid #605240;
+ overflow: auto;
+ outline: none;
+}
+.nSav {
+ background-color: red;
+ color: white;
+}
+.Sav {
+ background-color: green;
+ color: white;
+}
