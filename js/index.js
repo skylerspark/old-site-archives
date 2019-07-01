@@ -1,7 +1,7 @@
 // Navigator
 
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.width = "300px";
 }
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
@@ -24,3 +24,20 @@ fetch('https://api.ipify.org/?format=json')
   .then(ip => {
  document.getElementById("ip").textContent = "Connecting From: " + ip
 });
+
+// Visual Mechanism for Copier
+
+function myFunction() {
+  var copyText = document.getElementById("copyInp");  
+  copyText.select();
+  document.execCommand("copy");  //this function copies the text of the input with ID "copyInp"
+  
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied";  //displays tooltip to show its copied
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy to clipboard";  //shows tooltip on hover
+}
+
