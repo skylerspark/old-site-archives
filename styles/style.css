@@ -1,9 +1,9 @@
-html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-color: white;overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
+html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-image: url("../images/background.png"); background-size: 100% 100%; overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
 html::-webkit-scrollbar { width: 0 !important }
 
 .link, .ip {
 font-size: 13px;
-color: skyblue;
+color: white;
 cursor: pointer;
 margin: 25px;
 float: left;
@@ -11,11 +11,18 @@ float: left;
 .a7 {color:white;margin-left:170px;}
 
 .headerBar {
-border: 2px solid #006b91;
+border: 2px solid #557A95;
 border-radius: 5px;
 width: 99.8%;
 height: 70px;
-background-color: #007ba7;
+background-color: #7395AE;
+-webkit-box-shadow: inset 1px 1px 20px 5px rgba(0,0,0,0.75),
+1px 1px 20px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 1px 1px 20px 5px rgba(0,0,0,0.75),
+1px 1px 20px 5px rgba(0,0,0,0.75);
+box-shadow: inset 1px 1px 20px 5px rgba(0,0,0,0.75),
+1px 1px 20px 5px rgba(0,0,0,0.75);
+background-color: #7395AE;
 }
 
 .headerLogo {
@@ -33,7 +40,7 @@ width: 100%;
 
 hr {
 border: 0px;
-border-top: 2px dotted #006b91;
+border-top: 2px solid #557A95;
 }
 
 #navButton {
@@ -103,7 +110,7 @@ font-size: 25px;
 }
 
 .abox {
-border: 3px solid #006b91;
+border: 3px solid #557A95;
 border-radius: 20px;
 -webkit-box-shadow: inset 1px 1px 20px 5px rgba(0,0,0,0.75),
 1px 1px 20px 5px rgba(0,0,0,0.75);
@@ -111,7 +118,7 @@ border-radius: 20px;
 1px 1px 20px 5px rgba(0,0,0,0.75);
 box-shadow: inset 1px 1px 20px 5px rgba(0,0,0,0.75),
 1px 1px 20px 5px rgba(0,0,0,0.75);
-background-color: white;
+background-color: #7395AE;
 width: 500px;
 height: 300px;
 position: absolute;
