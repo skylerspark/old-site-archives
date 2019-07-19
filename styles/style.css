@@ -1,6 +1,17 @@
-html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-image: url("../images/background.png"); background-size: 100% 630px; overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
-html::-webkit-scrollbar { width: 0 !important }
-
+html {
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  overflow: -moz-scrollbars-none; -ms-overflow-style: none;
+}
+html::-webkit-scrollbar {
+  width: 0 !important;
+}
+html { 
+  background: url(../images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .link, .ip {
 font-size: 13px;
 color: white;
@@ -119,19 +130,16 @@ border-radius: 20px;
 box-shadow: inset 1px 1px 20px 5px rgba(0,0,0,0.75),
 1px 1px 20px 5px rgba(0,0,0,0.75);
 background-color: #7395AE;
+margin-left: auto;
+margin-right: auto;
 width: 500px;
 height: 300px;
-position: absolute;
-left: 35.1%;
-margin-left: -50px;
 }
 
 .abox2 {
   width: 800px;
   height: 600px;
-  position: absolute;
-  left: 23%;
-  margin-left: -50px;
+  margin-left: auto; margin-right: auto
   }
 
 @media screen and (max-height: 450px) {
