@@ -1,79 +1,81 @@
 ---
 permalink: /
 ---
+<!-- Bad Formatted DIY Background.... -->
 <div id="wrapper">
-<div id="bg">
- <canvas id="canvas">Your browser doesn't support canvas</canvas>
- 
- <!-- SVG Goo filter from: https://css-tricks.com/gooey-effect/ -->
- <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-     <defs>
-       <filter id="shadowed-goo">
-           <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-           <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-           <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
-           <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
-           <feOffset in="shadow" dx="1" dy="1" result="shadow" />
-           <feBlend in2="shadow" in="goo" result="goo" />
-           <feBlend in2="goo" in="SourceGraphic" result="mix" />
-       </filter>
-       <filter id="goo">
-           <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-           <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-           <feBlend in2="goo" in="SourceGraphic" result="mix" />
-       </filter>
-     </defs>
- </svg>
-  </div>
- 
- <html id="front"> 
-  <link rel="stylesheet" href="styles/style.css">
-  <script src="js/index.js"></script>
-  <script src="bg.js"></script>
-  <body>
-    <div class="headerBar">
-     <div class="headerLogo"><img class="imgl" src="images/pagelogo.png"></div>
-     <div class="link a1" onclick="link('projects')">Projects</div>
-     <div class="link a2" onclick="link('known')">Known</div>
-     <div class="link a3" onclick="link('intro')">Introduction</div>
-     <div class="link a4" onclick="link('bio')">Bio</div>
-     <div class="link a5" onclick="link('hiring')">Hiring?</div>
-     <div class="link a6" onclick="link('learn')">Learn</div>
-     <a class="ip a7" id="ip">Connecting From 00.000.00.00</a>
-     <span id="navButton" onclick="openNav()">&#9776; Social</span>
- <br />
- 
-   </div> 
-<!--  End of header  -->
-<input type="text" value="&lt; Sir Code /&gt;#4374" id="copyInp" style="position:absolute;left:-1000px;top:-1000px;">  
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="https://www.reddit.com/user/SkylerSpark">Reddit</a>
-    <a href="https://stackoverflow.com/users/11165703/taylor-spark">Stackoverflow</a>
-    <a href="https://codepen.io/SkylerSpark/">Codepen</a>
-    <a onclick="copyFunc()" style="cursor:cell;">
-     Copy Discord
-    </a>
-</div>
-   
- <!--  End Of Navigation  -->
- <hr />
- <br />
- <!-- Website Below -->
- 
-  <div class="p title" style="text-shadow: 0px 0px 10px #000000;color: white;">Welcome!</div>
-  <div class="p subtitle" style="text-shadow: 0px 0px 10px #000000;color: white;">
-  Please beware the site is Unfinished!
-  </div>
-   <br />
-   <div class="p abox rtext">
-    <a class="p rtext" style="text-align:center;font-size:40px;color:black;">Announcements:</a>
-  <br />
-    <a class="p rtext" style="text-align:center;font-size:15px;color:black;">
-      Site Is Still Under Construction!
-      <hr width="70%" style="border:1px solid black;" />
-      back from vacation!
-    </a>
-   </div>
-   <html>
-    </div>
+	<div id="bg">
+		<canvas id="canvas">Your browser doesn't support canvas</canvas>
+		<!-- SVG Goo filter from: https://css-tricks.com/gooey-effect/ -->
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+			<defs>
+				<filter id="shadowed-goo">
+					<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+					<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+					<feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+					<feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+					<feOffset in="shadow" dx="1" dy="1" result="shadow" />
+					<feBlend in2="shadow" in="goo" result="goo" />
+					<feBlend in2="goo" in="SourceGraphic" result="mix" />
+				</filter>
+				<filter id="goo">
+					<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+					<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+					<feBlend in2="goo" in="SourceGraphic" result="mix" />
+				</filter>
+			</defs>
+		</svg>
+	</div>
+	<!-- Start of Page -->
+	<html lang="en" id="front">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+		<link rel="stylesheet" href="styles/style.css">
+		<script src="js/index.js"></script>
+		<script src="bg.js"></script>
+	</head>
+
+	<body>
+		<div class="headerBar">
+			<div class="headerLogo">
+				<img class="imgl" src="images/pagelogo.png">
+			</div>
+			<div class="link a1" onclick="link('projects')">Projects</div>
+			<div class="link a2" onclick="link('known')">Known</div>
+			<div class="link a3" onclick="link('intro')">Introduction</div>
+			<div class="link a4" onclick="link('bio')">Bio</div>
+			<div class="link a5" onclick="link('hiring')">Hiring?</div>
+			<div class="link a6" onclick="link('learn')">Learn</div> <a class="ip a7" id="ip">Connecting From 00.000.00.00</a>
+			<span id="navButton" onclick="openNav()">&#9776; Social</span>
+			<br />
+		</div>
+		<!--  End of header  -->
+		<input type="text" value="&lt; Sir Code /&gt;#4374" id="copyInp" style="position:absolute;left:-1000px;top:-1000px;">
+		<div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="https://www.reddit.com/user/SkylerSpark">Reddit</a>
+			<a href="https://stackoverflow.com/users/11165703/taylor-spark">Stackoverflow</a>
+			<a href="https://codepen.io/SkylerSpark/">Codepen</a>
+			<a onclick="copyFunc()" style="cursor:cell;">
+         Copy Discord
+        </a>
+		</div>
+		<!--  End Of Navigation  -->
+		<hr />
+		<br />
+		<!-- Website Below -->
+		<div class="p title" style="text-shadow: 0px 0px 10px #000000;color: white;">Welcome!</div>
+		<div class="p subtitle" style="text-shadow: 0px 0px 10px #000000;color: white;">Please beware the site is Unfinished!</div>
+		<br />
+		<div class="p abox rtext"> <a class="p rtext" style="text-align:center;font-size:40px;color:black;">Announcements:</a>
+			<br /> <a class="p rtext" style="text-align:center;font-size:15px;color:black;">
+          Site Is Still Under Construction!
+          <hr width="70%" style="border:1px solid black;" />
+          back from vacation!
+        </a>
+		</div>
+	</body>
+
+	</html>
