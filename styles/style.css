@@ -1,4 +1,4 @@
-html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-image: url("../images/background.png"); background-size: 100% 100%; overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
+html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-image: url("../images/background.png"); background-size: 100% 630px; overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
 html::-webkit-scrollbar { width: 0 !important }
 
 .link, .ip {
