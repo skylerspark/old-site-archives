@@ -26,19 +26,11 @@ fetch('https://api.ipify.org/?format=json')
  document.getElementById("ip").textContent = "Connecting From: " + ip
 });
 
-// Visual Mechanism for Copier
+// Mechanism for Copier
 
-function myFunction() {
-  var copyText = document.getElementById("copyInp");  
+function copyFunc() {
+  var copyText = document.getElementById("copyInp");
   copyText.select();
-  document.execCommand("copy");  //this function copies the text of the input with ID "copyInp"
-  
-  var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copied";  //displays tooltip to show its copied
-}
-
-function outFunc() {
-  var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copy to clipboard";  //shows tooltip on hover
+  document.execCommand("copy"); //this function copies the text of the input with ID "copyInp"
 }
 
