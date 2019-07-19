@@ -1,26 +1,3 @@
-div#bg{
-  margin:0;
-  padding:0;
-  background-color:hsl(195, 100%, 7%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -100;
-}
-#canvas{
-  margin:0 auto;
-  display:block;
-  filter:url('#shadowed-goo');
-}
-svg{
-display:none;
-}
-html#front {
-z-index: 2;
-}
-
-
-
 html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; background-color: white;overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
 html::-webkit-scrollbar { width: 0 !important }
 
@@ -149,10 +126,6 @@ margin-left: -50px;
   left: 23%;
   margin-left: -50px;
   }
-
-.rtext {
-
-}
 
 @media screen and (max-height: 450px) {
 .sidenav {padding-top: 15px;}
