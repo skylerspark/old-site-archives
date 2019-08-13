@@ -1,29 +1,39 @@
-html {font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;overflow: -moz-scrollbars-none; -ms-overflow-style: none;}
-html::-webkit-scrollbar { width: 0 !important }
-#disc {position:absolute;left:-1000px;top:-1000px;}
-
-.link {
- color: black;
- font-size: 13px;;
- cursor: pointer;
- margin: 25px;
- float: left;
-}
-
-.headerBar {
- border: 2px solid;
- width: 99.8%;
- height: 70px;
-}
-
-#navButton {
- font-size: 13px;
- cursor: pointer;
- margin: 25px;
- float: right;
-}
-
-.sidenav {
+html {
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+ }
+ html::-webkit-scrollbar {
+  width: 0 !important;
+ }
+ #disc {
+  position: absolute;
+  left: -1000px;
+  top: -1000px;
+ }
+ 
+ .link {
+  color: black;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 25px;
+  float: left;
+ }
+ 
+ .headerBar {
+  border: 2px solid;
+  width: 99.8%;
+  height: 70px;
+ }
+ 
+ #navButton {
+  font-size: 13px;
+  cursor: pointer;
+  margin: 25px;
+  float: right;
+ }
+ 
+ .sidenav {
   background-color: white;
   border: 1px solid;
   height: 100%;
@@ -35,60 +45,63 @@ html::-webkit-scrollbar { width: 0 !important }
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-}
-
-.sidenav a {
+ }
+ 
+ .sidenav a {
   color: black;
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   display: block;
-  transition: 0.3s,
-  opacity 0.3s;
-}
-
-.sidenav .closebtn {
- position: absolute;
- top: 0;
- right: 25px;
- font-size: 36px;
- margin-left: 50px;
-}
-
-.pimg {
- text-align: center;
-}
-
-.c {
- overflow: hidden;
- display: inline-block;
- border: 2px solid;
- margin-left: 40px;
- width: 200px;
-}
-
-.p {
- text-align: center;
- font-size: 50px;
-}
-
-.subtitle {
- font-size: 15px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-/* stuff */
-
-.tooltip {
+  transition: 0.3s, opacity 0.3s;
+ }
+ 
+ .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+ }
+ 
+ .pimg {
+  text-align: center;
+ }
+ 
+ .c {
+  overflow: hidden;
+  display: inline-block;
+  border: 2px solid;
+  margin-left: 40px;
+  width: 200px;
+ }
+ 
+ .p {
+  text-align: center;
+  font-size: 50px;
+ }
+ 
+ .subtitle {
+  font-size: 15px;
+ }
+ 
+ @media screen and (max-height: 450px) {
+  .sidenav {
+   padding-top: 15px;
+  }
+  .sidenav a {
+   font-size: 18px;
+  }
+ }
+ 
+ /* stuff */
+ 
+ .tooltip {
   position: relative;
   display: inline-block;
-}
-
-.tooltip .tooltiptext {
+ }
+ 
+ .tooltip .tooltiptext {
   visibility: hidden;
   width: 140px;
   font-size: 15px;
@@ -104,9 +117,9 @@ html::-webkit-scrollbar { width: 0 !important }
   margin-left: -40px;
   opacity: 0;
   transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
+ }
+ 
+ .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -115,9 +128,10 @@ html::-webkit-scrollbar { width: 0 !important }
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
+ }
+ 
+ .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
-}
+ }
+ 
