@@ -21,16 +21,12 @@ html {
   margin: 25px;
   float: left;
  }
- .a7 {
-  color: white;
-  margin-left: 170px;
- }
  
  .headerBar {
   border: 2px solid #557a95;
   border-radius: 5px;
-  width: 99.8%;
-  height: 70px;
+  width: 99.75%;
+  height: 7.3%;
   background-color: #7395ae;
   -webkit-box-shadow: inset 1px 1px 20px 5px rgba(0, 0, 0, 0.75),
    1px 1px 20px 5px rgba(0, 0, 0, 0.75);
