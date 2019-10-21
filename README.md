@@ -5,4 +5,4 @@
 Head Here:
 [skylerspark.github/io](https://skylerspark.github.io)
 
-This site is outdated at the moment, and hasnt been updated. I reccomend NOT using it as a design example, but it is functional.
+This site is UNFUNCTIONAL AT THE MOMENT! As of 10/20/2019, this site is being completely redone!
