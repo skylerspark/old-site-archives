@@ -11,4 +11,4 @@ Head Here:
 <br><br>
 My Page is current NOT FINISHED, but is more Stable then the old site, which couldnt run correctly in all screen sizes.
 <br><br>
-I havent tested this site on iphone, but im assuming it would only work on ipad.
+**Edit: Tested on Ipad and Ipad Pro, Both Screen Sizes are Functional right now, Iphones/other Phones are a little unsupported right now!**
