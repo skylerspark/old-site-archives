@@ -3,10 +3,25 @@
     transition: 0.5s;
 }
 
-::selection,
+::-webkit-selection {
+    background: #ac3b61;
+    color: white;
+    border-radius: 3px;
+    text-shadow: 0 0 10px #FFFFFF;
+}
+
 ::-moz-selection {
     background: #ac3b61;
+    color: white;
     border-radius: 3px;
+    text-shadow: 0 0 10px #FFFFFF;
+}
+
+::selection {
+    background: #ac3b61;
+    color: white;
+    border-radius: 3px;
+    text-shadow: 0 0 10px #FFFFFF;
 }
 
 body {
@@ -26,6 +41,8 @@ body {
     -webkit-box-shadow: 0px 0px 13px 13px rgba(237, 199, 183, 1);
     -moz-box-shadow: 0px 0px 13px 13px rgba(237, 199, 183, 1);
     box-shadow: 0px 0px 13px 13px rgba(237, 199, 183, 1);
+    position: absolute;
+    z-index: 11;
 }
 
 #title {
@@ -41,7 +58,8 @@ body {
 .about:hover,
 .projects:hover,
 .info:hover,
-.contact:hover {
+.contact:hover,
+#title:hover {
     text-decoration: underline;
 }
 
@@ -50,4 +68,15 @@ body {
     height: 100%;
     border: 0;
     overflow: unset;
+}
+
+#contentCover {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    overflow: unset;
+    z-index: 10;
+    background-color: transparent;
+    top: 3em;
 }

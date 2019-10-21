@@ -14,16 +14,18 @@
         <center id="list">
             <br>
             <img src="" alt="" id="mainLogo">
-            <a id="title">Skylerspark.github.io</a>
+            <a id="title" onclick="link('Pages/home.html')">Skylerspark.github.io</a>
             <span id="links">
-    <a id="about" class="link about">About</a> 
-    <a id="projects" class="link projects">Projects</a>
-    <a id="info" class="link info">Info</a>
-    <a id="contact" class="link contact">Contact</a>
+    <a id="about" class="link about" onclick="link('Pages/about.html')">About</a> 
+    <a id="projects" class="link projects" onclick="link('Pages/projects.html')">Projects</a>
+    <a id="info" class="link info" onclick="link('Pages/info.html')">Info</a>
+    <a id="contact" class="link contact" onclick="link('Pages/contact.html')">Contact</a>
    </span>
         </center>
     </div>
+    <div id="headerUnder" style="width: 100%;height: 5em;"></div>
     <br><br>
+    <div id="contentCover"></div>
     <iframe src="Pages/_404.html" id="pageContent"></iframe>
 </body>
 
