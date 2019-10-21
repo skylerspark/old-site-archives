@@ -40,10 +40,10 @@ body::-webkit-scrollbar {
     cursor: default;
     width: 100%;
     height: 5em;
-    background-color: #0080ff;
-    -webkit-box-shadow: 0px 0px 13px 13px #0080ff;
-    -moz-box-shadow: 0px 0px 13px 13px #0080ff;
-    box-shadow: 0px 0px 13px 13px #0080ff;
+    background-color: #22A6F2;
+    -webkit-box-shadow: 0px 0px 13px 13px #22A6F2;
+    -moz-box-shadow: 0px 0px 13px 13px #22A6F2;
+    box-shadow: 0px 0px 13px 13px #22A6F2;
     position: absolute;
     z-index: 11;
 }
@@ -51,26 +51,11 @@ body::-webkit-scrollbar {
 #title {
     font-size: 40px;
     margin-right: 1em;
-    background: -moz-linear-gradient(top, #EEE2DC 0%, #FFFFFF 100%);
-    background: -webkit-linear-gradient(top, #EEE2DC 0%, #FFFFFF 100%);
-    background: linear-gradient(to bottom, #EEE2DC 0%, #FFFFFF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .link {
     font-size: 25px;
     margin-right: 1em;
-}
-
-#links {
-    background: -moz-linear-gradient(top, #EEE2DC 0%, #FFFFFF 100%);
-    background: -webkit-linear-gradient(top, #EEE2DC 0%, #FFFFFF 100%);
-    background: linear-gradient(to bottom, #EEE2DC 0%, #FFFFFF 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .about:hover,
