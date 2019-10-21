@@ -4,24 +4,37 @@
 }
 
 ::-webkit-selection {
-    background: #ac3b61;
+    background: gray;
     color: white;
     border-radius: 3px;
     text-shadow: 0 0 10px #FFFFFF;
 }
 
 ::-moz-selection {
-    background: #ac3b61;
+    background: gray;
     color: white;
     border-radius: 3px;
     text-shadow: 0 0 10px #FFFFFF;
 }
 
 ::selection {
-    background: #ac3b61;
+    background: gray;
     color: white;
     border-radius: 3px;
     text-shadow: 0 0 10px #FFFFFF;
+}
+
+.disable-select {
+    user-select: none;
+    /* supported by Chrome and Opera */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
 }
 
 body {
