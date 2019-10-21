@@ -9,6 +9,6 @@ Head Here:
 <br>
 10/21/2019 - Updating Styles and Home Page Code. Working on more Pages. Creating Baseplate for the Projects Page.
 <br><br>
-My Page is current NOT FINISHED, but is more Stable then the old site, which couldnt run correctly in all screen sizes.
+My Page is currently NOT FINISHED, but is more Stable then the old site, which couldnt run correctly in all screen sizes.
 <br><br>
 <b>Edit: Tested on Ipad and Ipad Pro, Both Screen Sizes are Functional right now, Iphones/other Phones are a little unsupported right now!</b>
