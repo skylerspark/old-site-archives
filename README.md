@@ -6,8 +6,9 @@ Head Here:
 <a href="https://skylerspark.github.io">skylerspark.github.io</a>
 <hr>
 10/20/2019 - Just finished rewriting the website, added smooth transitions and other features.
+<br>
 10/21/2019 - Updating Styles and Home Page Code. Working on more Pages. Creating Baseplate for the Projects Page.
-<br>
+<br><br>
 My Page is current NOT FINISHED, but is more Stable then the old site, which couldnt run correctly in all screen sizes.
-<br>
+<br><br>
 I havent tested this site on iphone, but im assuming it would only work on ipad.
