@@ -96,3 +96,22 @@ body::-webkit-scrollbar {
     top: 3em;
     pointer-events: none;
 }
+
+#projects {
+    float: middle;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.project {
+    overflow: wrap;
+}
+
+.proj {
+    margin: 3px;
+    border: 2px solid #22A6F2;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
