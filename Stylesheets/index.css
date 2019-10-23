@@ -115,3 +115,9 @@ body::-webkit-scrollbar {
     height: 150px;
     display: inline-block;
 }
+
+#p1 {
+    background: url('../Images/tearablewool2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
