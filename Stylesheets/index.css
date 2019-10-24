@@ -131,10 +131,15 @@ body::-webkit-scrollbar {
     width: 150px;
     height: 150px;
     display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #p1 {
     background: url('../Images/tearablewool2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
 }
+
+#p2 {
+    background: url('../Images/cetgui.png');
+}
+    
