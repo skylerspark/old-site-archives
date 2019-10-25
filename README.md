@@ -10,6 +10,7 @@
  <li>10/22-24/2019 : Updating Styles AGAIN, added some more page info, added the first two projects with pictures.</li>
  <li><b>10/22-24/2019 : These lists do not mean Im constantly updating, I just want to explain the amount of time in between update sessions</b></li>
  <li>10/25/2019 : Updated the Contacts Page to include all my other Site Profiles and my Discord Tag</li>
+ <li>10/25/2019 : Even more updates today, added the About Page, and renamed the Info Page to Debug, also moved some things.</li>
 </ul>
 <hr>
 <br><br>
