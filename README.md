@@ -1,6 +1,7 @@
 ---
 permalink: /README/
 ---
+<link rel="stylesheet" href="README.css">
 <h1>Introduction / Project Website</h1>
 <h6>This is a site where I will post my Projects, Contacts, Websites, and other such data.</h6>
 <p>Head Here:<br>
