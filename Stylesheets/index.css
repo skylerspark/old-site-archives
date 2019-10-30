@@ -64,7 +64,33 @@ body::-webkit-scrollbar {
 
 /* Mobile Styles */
 
-@media only screen and (max-width: 400px) {
+
+/* Old Generation Phones (iphone 4 and such) */
+
+@media only screen and (max-width: 320px) {
+    .proj {
+        margin: 1px;
+        border: 2px solid #22A6F2;
+        border-radius: 6px;
+        width: 90px;
+        height: 90px;
+        display: inline-block;
+    }
+    .link {
+        display: none;
+    }
+    #title {
+        margin-right: 0em;
+    }
+    #markdown {
+        display: none;
+    }
+}
+
+
+/* New Generation phones (iphone x and such) */
+
+@media only screen and (min-width: 321px) and (max-width: 400px) {
     .proj {
         margin: 2px;
         border: 2px solid #22A6F2;
@@ -74,6 +100,12 @@ body::-webkit-scrollbar {
         display: inline-block;
     }
     .link {
+        display: none;
+    }
+    #title {
+        margin-right: 0em;
+    }
+    #markdown {
         display: none;
     }
 }
@@ -91,7 +123,13 @@ body::-webkit-scrollbar {
         display: inline-block;
     }
     .link {
-        display: unset;
+        display: none;
+    }
+    #title {
+        margin-right: 0em;
+    }
+    #markdown {
+        display: none;
     }
 }
 
@@ -110,11 +148,16 @@ body::-webkit-scrollbar {
     .link {
         display: unset;
     }
+    #title {
+        margin-right: 1em;
+    }
+    #markdown {
+        display: unset;
+    }
 }
 
 #title {
     font-size: 2.5em;
-    margin-right: 1em;
 }
 
 .link {
