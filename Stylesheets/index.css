@@ -61,13 +61,64 @@ body::-webkit-scrollbar {
     z-index: 11;
 }
 
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 400px) {
+    .proj {
+        margin: 2px;
+        border: 2px solid #22A6F2;
+        border-radius: 8px;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    }
+    .link {
+        display: none;
+    }
+}
+
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .proj {
+        margin: 3px;
+        border: 2px solid #22A6F2;
+        border-radius: 9px;
+        width: 140px;
+        height: 140px;
+        display: inline-block;
+    }
+    .link {
+        display: unset;
+    }
+}
+
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 961px) {
+    .proj {
+        margin: 3px;
+        border: 2px solid #22A6F2;
+        border-radius: 10px;
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+    }
+    .link {
+        display: unset;
+    }
+}
+
 #title {
-    font-size: 40px;
+    font-size: 2.5em;
     margin-right: 1em;
 }
 
 .link {
-    font-size: 25px;
+    font-size: 1.5625em;
     margin-right: 1em;
 }
 
@@ -107,28 +158,6 @@ body::-webkit-scrollbar {
     overflow: wrap;
 }
 
-.proj {
-    margin: 3px;
-    border: 2px solid #22A6F2;
-    border-radius: 10px;
-    width: 150px;
-    height: 150px;
-    display: inline-block;
-}
-
-.proj::after {
-    -webkit-box-shadow: inset 0px 0px 19px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 0px 0px 19px 0px rgba(0,0,0,0.75);
-    box-shadow: inset 0px 0px 19px 0px rgba(0,0,0,0.75);
-    content: '';
-    display: inline-block;
-    height: 150px;
-    position: absolute;
-    top: 0;
-    width: 150px;
-    pointer-events: none;
-}
-
 #p1 {
     background: url('../Images/tearablewool2.png');
     background-size: cover;
@@ -152,4 +181,3 @@ body::-webkit-scrollbar {
     background-size: cover;
     background-repeat: no-repeat;
 }
-    
