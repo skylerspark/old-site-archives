@@ -114,9 +114,18 @@ body::-webkit-scrollbar {
     width: 150px;
     height: 150px;
     display: inline-block;
+}
+
+.proj::after {
     -webkit-box-shadow: inset 0px 0px 19px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 0px 19px 0px rgba(0,0,0,0.75);
     box-shadow: inset 0px 0px 19px 0px rgba(0,0,0,0.75);
+    content: '';
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 #p1 {
