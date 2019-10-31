@@ -272,12 +272,15 @@ body::-webkit-scrollbar {
     z-index: 1;
 }
 
-.linkdrop:hover .link-drop {
+#btnControl {
+    display: none;
+}
+
+#btnControl:checked + label .link-drop {
     display: block;
     border-radius: 8px;
 }
-
-.linkdrop:hover {
+#btnControl:checked + label .linkdrop {
     background-color: #29b1ff;
     border-radius: 8px;
 }
