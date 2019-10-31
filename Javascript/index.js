@@ -9,9 +9,9 @@ function sleep(s) {
 // TODO
 async function link(link) {
     document.getElementById("contentCover").style.background = "white";
-    await sleep(500);
+    await sleep(300);
     document.getElementById("pageContent").src = link;
-    await sleep(500);
+    await sleep(300);
     document.getElementById("contentCover").style.background = "transparent";
 }
 
