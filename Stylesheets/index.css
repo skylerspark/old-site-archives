@@ -284,6 +284,12 @@ body::-webkit-scrollbar {
     background-color: #29b1ff;
     border-radius: 8px;
 }
+#btnControl:not(:checked) + label .link-drop {
+    display: none;
+}
+#btnControl:not(:checked) + label .linkdrop {
+    background-color: transparent;
+}
 
 .linkdrop {
     display: inline-block;
