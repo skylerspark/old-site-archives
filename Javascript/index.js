@@ -20,7 +20,6 @@ function go(linktex) {
     win.focus();
 }
 
-// FIXME
 function copyDisc() {
     var el = document.createElement('textarea');
     el.value = "Sir Code#4374";
@@ -30,4 +29,16 @@ function copyDisc() {
     el.select();
     document.execCommand('copy');
     document.body.removeChild(el);
+}
+
+function checkDimensions() {
+    if (document.body.innerWidth <= 320) {
+
+    } else if (document.body.innerWidth >= 321 && document.body.innerWidth <= 400) {
+
+    } else if (document.body.innerWidth >= 401 && document.body.innerWidth <= 960) {
+
+    } else if (document.body.innerWidth >= 961) {
+
+    }
 }

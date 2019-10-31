@@ -80,7 +80,8 @@ body::-webkit-scrollbar {
         display: none;
     }
     #title {
-        margin-right: 0em;
+        font-size: 1.3em;
+        margin-right: 0.4em;
     }
     #markdown {
         display: none;
@@ -107,7 +108,8 @@ body::-webkit-scrollbar {
         display: none;
     }
     #title {
-        margin-right: 0em;
+        font-size: 1.6em;
+        margin-right: 0.4em;
     }
     #markdown {
         display: none;
@@ -134,7 +136,7 @@ body::-webkit-scrollbar {
         display: none;
     }
     #title {
-        margin-right: 0em;
+        margin-right: 0.5em;
     }
     #markdown {
         display: none;
@@ -176,10 +178,13 @@ body::-webkit-scrollbar {
     font-size: 2.5em;
 }
 
-.link,
-.link2 {
+.link {
     font-size: 1.5625em;
     margin-right: 1em;
+}
+
+.link2 {
+    font-size: 1.5625em;
 }
 
 .about:hover,
@@ -261,18 +266,18 @@ body::-webkit-scrollbar {
     z-index: 1;
 }
 
-.linkdrop:hover .link-drop {
+.linkdrop:active .link-drop {
     display: block;
     border-radius: 0px 0px 8px 8px;
 }
 
-.linkdrop {
-    display: inline-block;
-}
-
-.linkdrop:hover {
+.linkdrop:active {
     background-color: #29b1ff;
     border-radius: 8px 8px 0px 0px;
+}
+
+.linkdrop {
+    display: inline-block;
 }
 
 
