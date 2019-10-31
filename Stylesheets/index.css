@@ -272,28 +272,17 @@ body::-webkit-scrollbar {
     z-index: 1;
 }
 
-.btnControl {
-    display: none;
-}
-
-.btnControl:checked + label .link-drop {
+.linkdrop:hover .link-drop {
     display: block;
     border-radius: 8px;
 }
-.btnControl:checked + label .linkdrop {
+.linkdrop:hover .linkdrop {
     background-color: #29b1ff;
     border-radius: 8px;
-}
-.btnControl:not(:checked) + label .link-drop {
-    display: none;
-}
-.btnControl:not(:checked) + label .linkdrop {
-    background-color: transparent;
 }
 
 .linkdrop {
     display: inline-block;
 }
-
 
 /* End of Navigation Auto-adjustment stuff */
