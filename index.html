@@ -10,27 +10,21 @@
 </head>
 
 <body>
-    <div id="header" class="disable-select">
-        <center id="list">
-            <br>
-            <img src="" alt="" id="mainLogo">
-            <a id="title" onclick="link('Pages/home.html')" class="textShadow">Welcome</a>
-            <span id="links">
-                <a id="projects" class="link projects textShadow" onclick="link('Pages/projects.html')">Projects</a>
-                <a id="about" class="link about textShadow" onclick="link('Pages/about.html')">About</a> 
-                <a id="contact" class="link contact textShadow" onclick="link('Pages/contact.html')">Contact</a>
-                <a id="info" class="link info textShadow" onclick="link('Pages/info.html')">Debug</a>
-            </span>
-            <span class="linkdrop" id="linkdrop">
-                <button class="drop-list link2">Links</button>
-            <div class="link-drop" id="linkdroplist">
-                <a id="projects" class="link2 projects textShadow" onclick="link('Pages/projects.html')">Projects</a><br>
-                <a id="about" class="link2 about textShadow" onclick="link('Pages/about.html')">About</a><br>
-                <a id="contact" class="link2 contact textShadow" onclick="link('Pages/contact.html')">Contact</a><br>
-                <a id="info" class="link2 info textShadow" onclick="link('Pages/info.html')">Debug</a>
-            </div>
-            </span>
-        </center>
+    <div id="header">
+        <br>
+        <a class="link textShadow" onclick="link('Pages/home.html')">Welcome</a>
+        <a class="link textShadow" onclick="link('Pages/projects.html')">Projects</a>
+        <a class="link textShadow" onclick="link('Pages/about.html')">About</a>
+        <a class="link textShadow" onclick="link('Pages/contact.html')">Contact</a>
+        <a class="link textShadow" onclick="link('Pages/info.html')">Debug</a>
+        <a class="slink textShadow" onclick="link('Pages/home.html')">Welcome</a>
+        <select id="slinks" onchange="link(this.value)">
+            <option class="slink textShadow" value="Pages/home.html" selected hidden>Links</option>
+            <option class="slink textShadow" value="Pages/projects.html">Projects</option>
+            <option class="slink textShadow" value="Pages/about.html">About</option> 
+            <option class="slink textShadow" value="Pages/contact.html">Contact</option>
+            <option class="slink textShadow" value="Pages/info.html">Debug</option>
+        </select>
     </div>
     <div id="headerUnder" style="width: 100%;height: 5em;"></div>
     <br><br>
