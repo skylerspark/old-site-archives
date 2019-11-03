@@ -272,10 +272,11 @@ body::-webkit-scrollbar {
     z-index: 1;
 }
 
-.linkdrop:hover .link-drop {
+.linkdrop:active .link-drop {
     display: block;
     border-radius: 8px;
 }
+
 .linkdrop:hover .linkdrop {
     background-color: #29b1ff;
     border-radius: 8px;
@@ -284,5 +285,12 @@ body::-webkit-scrollbar {
 .linkdrop {
     display: inline-block;
 }
+
+.drop-list {
+    border: 0;
+    background-color: #29b1ff;
+    border-radius: 5px;
+}
+
 
 /* End of Navigation Auto-adjustment stuff */
