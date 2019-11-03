@@ -272,7 +272,7 @@ body::-webkit-scrollbar {
     z-index: 1;
 }
 
-.linkdrop:active .link-drop {
+.linkdrop:focus .link-drop {
     display: block;
     border-radius: 8px;
 }
