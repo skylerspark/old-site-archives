@@ -17,7 +17,7 @@ async function link(link) {
 
 function go(linktex) {
     window.open(linktex, "_blank");
-    win.focus();
+    window.focus();
 }
 
 function copyDisc() {
