@@ -10,6 +10,10 @@
     text-shadow: 0 0 10px #FFFFFF;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+}
+
 ::-moz-selection {
     background: gray;
     color: white;
