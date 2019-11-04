@@ -213,7 +213,7 @@ body {
 }
 
 #p5 {
-    backgrojnd: url('../Images/flaashyem.png');
+    background: url('../Images/flaashyem.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
