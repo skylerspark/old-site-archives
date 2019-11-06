@@ -221,6 +221,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+#p6 {
+    background: url('../Images/diggydig.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 /* End of Projects page stuff */
