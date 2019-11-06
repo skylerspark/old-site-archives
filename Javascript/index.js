@@ -7,10 +7,11 @@ function sleep(s) {
 // STUB END
 
 // TODO
-async function link(link) {
+async function link(link, title) {
     document.getElementById("contentCover").style.background = "white";
     await sleep(300);
     document.getElementById("pageContent").src = link;
+    document.querySelector("title").innerHTML = title;
     await sleep(300);
     document.getElementById("contentCover").style.background = "transparent";
 }
