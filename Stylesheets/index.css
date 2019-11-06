@@ -226,6 +226,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+#p7 {
+    background: url('../Images/cconsole.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#p8 {
+    background: url('../Images/ddovale.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 /* End of Projects page stuff */
