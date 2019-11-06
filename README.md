@@ -15,6 +15,8 @@ permalink: /README/
  <li>10/25/2019 : Updated the Contacts Page to include all my other Site Profiles and my Discord Tag</li>
  <li>10/25/2019 : Even more updates today, added the About Page, and renamed the Info Page to Debug, also moved some things.</li>
  <li>10/25-30/2019 : Worked on huge improvements to Responsiveness, Site now functions on EVERY SCREEN SIZE!!!! Even old gen phones!</li>
+ <li>10/30-11/6/2019 : Worked on more Responsiveness, made a boring but FUNCTIONAL Menu and setup to appear on ios devices. Also fixed some compatability errors, and the site should function on ios safari (all devices), Google Chrome, Firefox, Opera, and pretty much most popular browsers. Havent tested IE..</li>
+ <li>11/6/2019 : Over the last week, I made some Icons and Pictures, and placed them in the Projects Page, we now have 6 Projects in the projects page now.</li>
 </ul>
 <hr>
 <br><br>
