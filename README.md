@@ -19,6 +19,7 @@ permalink: /README/
  <li>11/6/2019 : Over the last week, I made some Icons and Pictures, and placed them in the Projects Page, we now have 6 Projects in the projects page now.</li>
  <li>11/6/2019 : Added 2 more projects (DDOVale, and CConsole) we now have 8 Projects in our projects page!</li>
  <li>11/7/2019 : Random Fixes and added a Title System in the Javascript to make the page title change depending on where you are.</li>
+ <li>11/7/2019 : Added another project (Windows-Flat-Form-Data)</li>
 </ul>
 <hr>
 <br><br>
