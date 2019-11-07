@@ -56,6 +56,12 @@ body {
     z-index: 3;
 }
 
+#slinks {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 
 /* Old Generation Phones (iphone 4 and such) */
 
