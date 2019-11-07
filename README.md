@@ -18,6 +18,7 @@ permalink: /README/
  <li>10/30-11/6/2019 : Worked on more Responsiveness, made a boring but FUNCTIONAL Menu and setup to appear on ios devices. Also fixed some compatability errors, and the site should function on ios safari (all devices), Google Chrome, Firefox, Opera, and pretty much most popular browsers. Havent tested IE..</li>
  <li>11/6/2019 : Over the last week, I made some Icons and Pictures, and placed them in the Projects Page, we now have 6 Projects in the projects page now.</li>
  <li>11/6/2019 : Added 2 more projects (DDOVale, and CConsole) we now have 8 Projects in our projects page!</li>
+ <li>11/7/2019 : Random Fixes and added a Title System in the Javascript to make the page title change depending on where you are.</li>
 </ul>
 <hr>
 <br><br>
