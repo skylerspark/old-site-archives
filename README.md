@@ -20,7 +20,7 @@ permalink: /README/
  <li>11/06/2019 : Added 2 more projects (DDOVale, and CConsole) we now have 8 Projects in our projects page!</li>
  <li>11/07/2019 : Random Fixes and added a Title System in the Javascript to make the page title change depending on where you are.</li>
  <li>11/07/2019 : Added another project (Windows-Flat-Form-Data)</li>
- <li>11/11/2019 : Added my Program logo as a favicon for the webpage!</li>
+ <li>11/11/2019 : Added my Program logo as a favicon for the webpage, Also Deleted the old Website for specific Reasons</li>
 </ul>
 <hr>
 <br><br>
