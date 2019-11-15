@@ -32,14 +32,15 @@ function copyDisc() {
     document.body.removeChild(el);
 }
 
-function checkDimensions() {
-    if (document.body.innerWidth <= 320) {
+window.onscroll = function() {myFunction()};
 
-    } else if (document.body.innerWidth >= 321 && document.body.innerWidth <= 400) {
+var navbar = document.getElementById("header");
+var sticky = navbar.offsetTop;
 
-    } else if (document.body.innerWidth >= 401 && document.body.innerWidth <= 960) {
-
-    } else if (document.body.innerWidth >= 961) {
-
-    }
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
 }
