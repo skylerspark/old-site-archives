@@ -194,7 +194,6 @@ select:focus {
     overflow: unset;
     z-index: 2;
     background-color: transparent;
-    top: 3em;
     pointer-events: none;
 }
 
