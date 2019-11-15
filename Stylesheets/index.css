@@ -188,11 +188,12 @@ select:focus {
 
 #contentCover {
     width: 100%;
-    height: 100%;
+    height: 200%;
     border: 0;
     position: absolute;
     overflow: unset;
     z-index: 2;
+    top: 0;
     background-color: transparent;
     pointer-events: none;
 }
