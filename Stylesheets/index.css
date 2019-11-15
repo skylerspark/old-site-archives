@@ -1,6 +1,7 @@
 * {
     font-family: Lato, Lucida Grande, Lucida Sans Unicode, Tahoma, Sans-Serif;
     transition: 0.3s;
+    text-align: center;
 }
 
 ::-webkit-selection {
@@ -40,6 +41,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #eee2dc;
+    text-align: center;
 }
 
 #header {
