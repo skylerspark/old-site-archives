@@ -7,6 +7,9 @@
     border-top: 2em solid black;
     border-left: 2em solid black;
     z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 #scLink:hover, #scImage:hover #scLink {
     border-right: 2em solid transparent;
