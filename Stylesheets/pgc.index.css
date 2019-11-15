@@ -1,5 +1,4 @@
 #scLink {
-    position: absolute;
     width: 0em;
     height: 0em;
     border-right: 1em solid transparent;
@@ -9,7 +8,6 @@
     z-index: 5;
     position: fixed;
     top: 0;
-    width: 100%;
 }
 #scLink:hover, #scImage:hover #scLink {
     border-right: 2em solid transparent;
