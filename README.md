@@ -1,10 +1,11 @@
 ---
 permalink: /README/
 ---
-<h1>Introduction / Project Website</h1>
+<h1>Introduction / Project Website (In Beta Now)</h1> 
 <h6>This is a site where I will post my Projects, Contacts, Websites, and other such data.</h6>
 <p>Head Here:<br>
 <a href="https://skylerspark.github.io">SkylerSpark.github.io</a></p>
+<br><br>
 <h3>Updates:</h3>
 <hr>
 <ul>
@@ -29,6 +30,6 @@ permalink: /README/
 </ul>
 <hr>
 <br><br>
-My Page is currently NOT FINISHED, but is more Stable then the old site, which couldnt run correctly in all screen sizes.
+My Page is currently in COMPLETED Beta, meaning its ready for use in a Commercial Environment, but I wouldn't suggest it, since the amount of Content isnt HUGE at the moment.
 <br><br>
 <b>Edit: Tested on Ipad and Ipad Pro, Iphone 8, and Iphone 4, all screens are sized nicely and functional. I also tested other devices with chrome's device resolution simulator, pretty much all of them seemed to work!</b>
