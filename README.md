@@ -23,6 +23,7 @@ permalink: /README/
  <li>11/11/2019 : Added my Program logo as a favicon for the webpage, Also Deleted the old Website for specific Reasons (Im talking about the old old old site that was in the -A-Other folder)</li>
  <li>11/12/2019 : Added my PGC (program graphical card) to the top left of the site, allows you to get an instant link to my github profile page, just a small shortcut thing. Source code for PGC: <a href="https://github.com/skylerspark/Program-Graphical-Card">SkylerSpark/Program-Graphical-Card</a></li>
  <li>11/15/2019 : Made the header bar Sticky, so that it stays at the top while you scroll, Im also changing some other styles, nothing major.</li>
+ <li>11/15/2010 : Also fixed an issue with the nav-bar that caused content to cut off near the top, it now gets cut off when its under the faded part of the top-bar, fixing the issue. Also removed all the temporary Center tags that were the backbone of the site, replaced all with css `text-align: center`.</li>
 </ul>
 <hr>
 <br><br>
