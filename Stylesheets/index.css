@@ -28,6 +28,12 @@
     text-shadow: 0 0 10px #FFFFFF;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .disable-select {
     user-select: none;
     -webkit-user-select: none;
