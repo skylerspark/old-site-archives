@@ -32,6 +32,7 @@ Head Here:
 * 11/15/2010 : Also fixed an issue with the nav-bar that caused content to cut off near the top, it now gets cut off when its under the faded part of the top-bar, fixing the issue. Also removed all the temporary Center tags that were the backbone of the site, replaced all with css `text-align: center; display: inline-block;`.
 * 11/16/2019 : Fixed another bug today, The contentCover element (The white plate that fades when you open a link) was being pushed 3 em into the roof of the site, causing it to look horrid if you scrolled down enough. Should be fixed now.
 * 11/25/2019 : Fixed the README.md (This File) so it no longer contains any HTML, added a Commit Counter Badge below, to count the latest commit, Updated Social Tab with shields.io badges, which I placed in my new `SkylerSpark/Svg-Badges` Repository. Fixed some Text errors in the README, I also changed the `link()` functions onclick in the social tab, as they werent sending you to any link, and in turn not actually sending you to the site, but sending errors to the JS console.
+* 11/25/2019 : Fixed 2 Errors included in the W3C Validation Badge, Now there is only a little error left to fix :3
   
 ***
 ### Extra Live Data:
