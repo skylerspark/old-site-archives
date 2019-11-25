@@ -4,18 +4,12 @@ permalink: /README/
 
 # Introduction / Project Website (Fully Released) ![license](https://img.shields.io/github/license/skylerspark/skylerspark.github.io?logo=github)
 #### This is a site where I will post my Projects, Contacts, Websites, and other such data.
-
 ***
-
 Head Here:
 
 [SkylerSpark.github.io](https://skylerspark.github.io)
-
 ***
-
-### Currently,
 ![Supporting:](https://raw.githubusercontent.com/skylerspark/Svg-Badges/master/supporting.svg?sanitize=true)
-
 ***
 
 ### Updates:
