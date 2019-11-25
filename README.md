@@ -14,7 +14,7 @@ Head Here:
 <br>
 
 ### Currently,
-![Supporting:](https://raw.githubusercontent.com/skylerspark/Svg-Badges/master/supporting.svg)
+![Supporting:](https://raw.githubusercontent.com/skylerspark/Svg-Badges/master/supporting.svg?sanitize=true)
 
 ### Updates:
 
