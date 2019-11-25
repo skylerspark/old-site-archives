@@ -13,7 +13,8 @@ Head Here:
 
 <br>
 
-### Currently, ![Supporting:](https://raw.githubusercontent.com/skylerspark/Svg-Badges/master/supporting.svg)
+### Currently,
+![Supporting:](https://raw.githubusercontent.com/skylerspark/Svg-Badges/master/supporting.svg)
 
 ### Updates:
 
