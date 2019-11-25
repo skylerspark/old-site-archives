@@ -4,12 +4,17 @@ permalink: /README/
 
 # Introduction / Project Website
 #### This is a site where I will post my Projects, Contacts, Websites, and other such data.
+
 ***
+
 Head Here:
 
 [SkylerSpark.github.io](https://skylerspark.github.io)
+
 ***
+
 ![Supporting:](https://raw.githubusercontent.com/skylerspark/Svg-Badges/master/supporting.svg?sanitize=true)
+
 ***
 
 ### Updates:
@@ -35,6 +40,7 @@ Head Here:
 * 11/25/2019 : Fixed 2 Errors included in the W3C Validation Badge, Now there is only a little error left to fix :3
   
 ***
+
 ### Extra Live Data:
 
 ![Latest Commit:](https://img.shields.io/github/last-commit/skylerspark/skylerspark.github.io?color=success)
@@ -46,6 +52,7 @@ Head Here:
 ![license](https://img.shields.io/github/license/skylerspark/skylerspark.github.io?logo=github&label=License)
 
 ![running](https://img.shields.io/website?down_color=Critical&down_message=Not%20Running&label=SkylerSpark.Github.io&up_color=Success&up_message=Running&url=https%3A%2F%2Fskylerspark.github.io)
+
 ***
 
 SkylerSpark.Github.io is Complete, and Almost Completely Ready for Commercial Use, but it is still a stage of "Development".
