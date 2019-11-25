@@ -2,13 +2,23 @@
 permalink: /README/
 ---
 
-<h1>Introduction / Project Website (Fully Released)</h1> 
-<h6>This is a site where I will post my Projects, Contacts, Websites, and other such data.</h6>
-<p>Head Here:<br>
-<a href="https://skylerspark.github.io">SkylerSpark.github.io</a></p>
-<br><br>
-<h3>Updates:</h3>
+# Introduction / Project Website (Fully Released)
+#### This is a site where I will post my Projects, Contacts, Websites, and other such data.
+
 <hr>
+
+Head Here:
+
+[SkylerSpark.github.io](skylerspark.github.io)
+
+<br>
+
+### Currently, ![Supporting:](https://raw.githubusercontent.com/skylerspark/Svg-Badges/master/supporting.svg)
+
+### Updates:
+
+<hr>
+
 <ul>
  <li>10/20/2019 : Just finished rewriting the website, added smooth transitions and other features.</li>
  <li>10/21/2019 : Updating Styles and Home Page Code. Working on more Pages. Creating Baseplate for the Projects Page.</li>
