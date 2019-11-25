@@ -36,7 +36,7 @@ Head Here:
 * 11\/12\/2019 \: Added my PGC (program graphical card) to the top left of the site, allows you to get an instant link to my github profile page, just a small shortcut thing. Source code for PGC: [SkylerSpark/Program-Graphical-Card](https://github.com/skylerspark/Program-Graphical-Card)
 * 11\/13-11\/14\/2019 \: Updated styles for the "Boring" Menu from before, and removed the default styles on ios, the link now looks like the normal links, except it contains a dropdown.
 * 11\/15\/2019 \: Made the header bar Sticky, so that it stays at the top while you scroll, Im also changing some other styles, nothing major.
-* 11\/15\/2010 \: Also fixed an issue with the nav-bar that caused content to cut off near the top, it now gets cut off when its under the faded part of the top-bar, fixing the issue. Also removed all the temporary Center tags that were the backbone of the site, replaced all with css `text-align\: center`.
+* 11\/15\/2010 \: Also fixed an issue with the nav-bar that caused content to cut off near the top, it now gets cut off when its under the faded part of the top-bar, fixing the issue. Also removed all the temporary Center tags that were the backbone of the site, replaced all with css `text-align: center; display: inline-block;`.
 * 11\/16\/2019 \: Fixed another bug today, The contentCover element (The white plate that fades when you open a link) was being pushed 3 em into the roof of the site, causing it to look horrid if you scrolled down enough. Should be fixed now.
   
 ![Latest Commit:](https://img.shields.io/github/last-commit/skylerspark/skylerspark.github.io?color=success)
