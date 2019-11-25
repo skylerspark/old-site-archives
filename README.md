@@ -48,3 +48,11 @@ Head Here:
 ***
 
 SkylerSpark.Github.io is Complete, and Almost Completely Ready for Commercial Use, but it is still a stage of "Development".
+
+
+
+<style type="text/css">
+  body {
+    background-color: #336655;
+  }
+</style>
