@@ -2,7 +2,7 @@
 permalink: /README/
 ---
 
-# Introduction / Project Website ![license](https://img.shields.io/github/license/skylerspark/skylerspark.github.io?logo=github) ![running](https://img.shields.io/website?down_color=Critical&down_message=Not%20Running&label=Website%20Up%3F&up_color=Success&up_message=Running&url=https%3A%2F%2Fskylerspark.github.io)
+# Introduction / Project Website ![license](https://img.shields.io/github/license/skylerspark/skylerspark.github.io?logo=github&label=License) ![running](https://img.shields.io/website?down_color=Critical&down_message=Not%20Running&label=Website%20Up%3F&up_color=Success&up_message=Running&url=https%3A%2F%2Fskylerspark.github.io)
 #### This is a site where I will post my Projects, Contacts, Websites, and other such data.
 ***
 Head Here:
