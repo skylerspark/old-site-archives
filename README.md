@@ -2,7 +2,7 @@
 permalink: /README/
 ---
 
-# Introduction / Project Website (Fully Released) ![license](https://raw.githubusercontent.com/skylerspark/Svg-Badges/master/mit.svg?sanitize=true)
+# Introduction / Project Website (Fully Released) ![license](https://img.shields.io/github/license/skylerspark/skylerspark.github.io?logo=github)
 #### This is a site where I will post my Projects, Contacts, Websites, and other such data.
 
 ***
