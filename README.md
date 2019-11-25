@@ -45,6 +45,8 @@ Head Here:
 </ul>
 <hr>
 <br><br>
+
 My Page is currently in COMPLETED Beta, meaning its ready for use in a Commercial Environment, but I wouldn't suggest it, since the amount of Content isnt HUGE at the moment.
 <br><br>
+
 <b>Edit: Tested on Ipad and Ipad Pro, Iphone 8, and Iphone 4, all screens are sized nicely and functional. I also tested other devices with chrome's device resolution simulator, pretty much all of them seemed to work!</b>
