@@ -34,10 +34,13 @@ Head Here:
 * 11/25/2019 : Fixed the README.md (This File) so it no longer contains any HTML, added a Commit Counter Badge below, to count the latest commit, Updated Social Tab with shields.io badges, which I placed in my new `SkylerSpark/Svg-Badges` Repository. Fixed some Text errors in the README, I also changed the `link()` functions onclick in the social tab, as they werent sending you to any link, and in turn not actually sending you to the site, but sending errors to the JS console.
   
 ***
-### Commits:
+### Extra Live Data:
 
 ![Latest Commit:](https://img.shields.io/github/last-commit/skylerspark/skylerspark.github.io?color=success)
 ![Commits per Month](https://img.shields.io/github/commit-activity/m/skylerspark/skylerspark.github.io?color=Success&label=Average%20Commits%20per%20Month&logo=Github)
+![Validation](https://img.shields.io/w3c-validation/html?color=critical&label=W3C%20Validation%3A%20&logo=javascript&preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&targetUrl=https%3A%2F%2Fskylerspark.github.io)
+![license](https://img.shields.io/github/license/skylerspark/skylerspark.github.io?logo=github&label=License)
+![running](https://img.shields.io/website?down_color=Critical&down_message=Not%20Running&label=SkylerSpark.Github.io&up_color=Success&up_message=Running&url=https%3A%2F%2Fskylerspark.github.io)
 ***
 
 SkylerSpark.Github.io is Complete, and Almost Completely Ready for Commercial Use, but it is still a stage of "Development".
