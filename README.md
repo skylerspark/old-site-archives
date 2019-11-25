@@ -9,16 +9,16 @@ permalink: /README/
 
 Head Here:
 
-[SkylerSpark.github.io](skylerspark.github.io)
+[SkylerSpark.github.io](https://skylerspark.github.io)
 
-
+***
 
 ### Currently,
 ![Supporting:](https://raw.githubusercontent.com/skylerspark/Svg-Badges/master/supporting.svg?sanitize=true)
 
-### Updates:
-
 ***
+
+### Updates:
 
 * 10/20/2019 : Just finished rewriting the website, added smooth transitions and other features.
 * 10/21/2019 : Updating Styles and Home Page Code. Working on more Pages. Creating Baseplate for the Projects Page.
@@ -39,11 +39,10 @@ Head Here:
 * 11/16/2019 : Fixed another bug today, The contentCover element (The white plate that fades when you open a link) was being pushed 3 em into the roof of the site, causing it to look horrid if you scrolled down enough. Should be fixed now.
 * 11/25/2019 : Fixed the README.md (This File) so it no longer contains any HTML, added a Commit Counter Badge below, to count the latest commit, Updated Social Tab with shields.io badges, which I placed in my new `SkylerSpark/Svg-Badges` Repository. Fixed some Text errors in the README, I also changed the `link()` functions onclick in the social tab, as they werent sending you to any link, and in turn not actually sending you to the site, but sending errors to the JS console.
   
-![Latest Commit:](https://img.shields.io/github/last-commit/skylerspark/skylerspark.github.io?color=success)
+***
   
+![Latest Commit:](https://img.shields.io/github/last-commit/skylerspark/skylerspark.github.io?color=success)
 
 ***
 
-My Page is currently in COMPLETED Beta, meaning its ready for use in a Commercial Environment, but I wouldn't suggest it, since the amount of Content isnt HUGE at the moment.
-
-**Edit: Tested on Ipad and Ipad Pro, Iphone 8, and Iphone 4, all screens are sized nicely and functional. I also tested other devices with chrome's device resolution simulator, pretty much all of them seemed to work!**
+SkylerSpark.Github.io is Complete, and Almost Completely Ready for Commercial Use, but it is still a stage of "Development".
