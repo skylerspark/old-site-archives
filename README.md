@@ -5,13 +5,13 @@ permalink: /README/
 # Introduction / Project Website (Fully Released)
 #### This is a site where I will post my Projects, Contacts, Websites, and other such data.
 
-<hr>
+***
 
 Head Here:
 
 [SkylerSpark.github.io](skylerspark.github.io)
 
-<br>
+
 
 ### Currently,
 ![Supporting:](https://raw.githubusercontent.com/skylerspark/Svg-Badges/master/supporting.svg?sanitize=true)
