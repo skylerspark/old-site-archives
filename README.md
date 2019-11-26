@@ -15,6 +15,8 @@ Head Here:
 
 ![Supporting:](https://raw.githubusercontent.com/skylerspark/Svg-Badges/master/supporting.svg?sanitize=true)
 
+Theres still a few things wrong in IE, but its mostly functioning.
+
 ***
 
 ### Updates:
