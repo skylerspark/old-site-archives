@@ -65,7 +65,8 @@ body {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border: 0;
+    border: 1px solid silver;
+    border-radius: 0.5em;
     background-color: transparent;
     font-size: 1.5em;
 }
